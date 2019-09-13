@@ -31,7 +31,6 @@ public class PrizeController {
 
 		HashMap<String, String> hm = new HashMap<String, String>(); 
 
-		//Couldnt figure out how to read from file
 		//when making hashmap, check how many stars in starList to determine what goes in hashmap
 		if (starList.size() >= 5){
 			hm.put("Apple", "100"); 
@@ -48,7 +47,7 @@ public class PrizeController {
 
 		return hm;
 	}
-
+	//check if pick matches with any element in the hash map, then displays the corresponding value value
 	public static String showPrize(HashMap hm,String pick){
 
 		try{

@@ -38,6 +38,7 @@ public class Lotto extends Tab {
 		Button button1 = new Button("1");
 		button1.setOnAction(action -> {
 			guessList = control.createGuessNumber(guessList,1);});
+			
 		
 		Button button2 = new Button("2");
 		button2.setOnAction(action -> {
